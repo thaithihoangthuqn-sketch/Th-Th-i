@@ -143,12 +143,11 @@ const A = [
   // ===================== BÀI 3 =====================
   {
     title: "Các dòng điện xung", lt: 3, part: "A",
-    summary: "Bài học trình bày ba nội dung: kích thích điện thần kinh – cơ (kích thích điện, các dòng điện kích thích, kỹ thuật điều trị); chẩn đoán điện (hoạt động điện của các dây thần kinh, điện chẩn đoán); các dòng điện giảm đau (dòng siêu kích thích điện, dòng TENS, dòng Diadynamic, dòng giao thoa). Sinh viên tìm hiểu các tác dụng sinh lý, tác dụng điều trị, ứng dụng lâm sàng, cách lựa chọn dòng điện trong điều trị kích thích cơ và cách xác định vị trí đặt điện cực kích thích, làm cơ sở để thực hiện đúng kỹ thuật điều trị bằng điện cực điểm và bằng điện cực tấm.",
+    summary: "Bài học trình bày hai nội dung: kích thích điện thần kinh – cơ (kích thích điện, các dòng điện kích thích, kỹ thuật điều trị); các dòng điện giảm đau (dòng siêu kích thích điện, dòng TENS, dòng Diadynamic, dòng giao thoa). Sinh viên tìm hiểu các tác dụng sinh lý, tác dụng điều trị, ứng dụng lâm sàng, cách lựa chọn dòng điện trong điều trị kích thích cơ và cách xác định vị trí đặt điện cực kích thích, làm cơ sở để thực hiện đúng kỹ thuật điều trị bằng điện cực điểm và bằng điện cực tấm.",
     prepIntro: elec,
     prep: [
       "Các khái niệm về các phương pháp điều trị bằng các dòng điện xung.",
       "Kích thích điện thần kinh – cơ: kích thích điện, các dòng điện kích thích, kỹ thuật điều trị.",
-      "Chẩn đoán điện: hoạt động điện của các dây thần kinh; điện chẩn đoán.",
       "Các dòng điện giảm đau: dòng siêu kích thích điện, dòng TENS, dòng Diadynamic, dòng giao thoa.",
       "Tác dụng sinh lý, tác dụng điều trị và ứng dụng lâm sàng của các dòng điện xung.",
       "Cách lựa chọn dòng điện trong điều trị kích thích cơ; cách xác định vị trí đặt điện cực kích thích.",
@@ -156,10 +155,9 @@ const A = [
     reallife: elecMind,
     think: ["Lên danh sách các bệnh được áp dụng các dòng điện kích thích và các dòng điện giảm đau.", "Khi nào sử dụng điện cực điểm, khi nào sử dụng điện cực tấm?"],
     refs: [R.CX],
-    terms: "Kích thích điện thần kinh – cơ; Dòng điện kích thích; Chẩn đoán điện; Hoạt động điện của dây thần kinh; Dòng siêu kích thích điện; Dòng TENS; Dòng Diadynamic; Dòng giao thoa; Điện cực điểm; Điện cực tấm; Vị trí đặt điện cực",
+    terms: "Kích thích điện thần kinh – cơ; Dòng điện kích thích; Dòng siêu kích thích điện; Dòng TENS; Dòng Diadynamic; Dòng giao thoa; Điện cực điểm; Điện cực tấm; Vị trí đặt điện cực",
     questions: [
       "Trình bày khái niệm kích thích điện và các dòng điện kích thích cơ.",
-      "Trình bày hoạt động điện của các dây thần kinh và điện chẩn đoán.",
       "Trình bày các dòng điện giảm đau: dòng siêu kích thích điện, TENS, Diadynamic, giao thoa.",
       "Trình bày cách lựa chọn dòng điện trong điều trị kích thích cơ và cách xác định vị trí đặt điện cực kích thích.",
       "Phân biệt kỹ thuật điều trị bằng điện cực điểm và bằng điện cực tấm.",
@@ -182,10 +180,9 @@ const A = [
     materials: "Máy chiếu, bảng, phấn/bút viết, laptop, slide trình chiếu có hình ảnh, phim.",
     acts: [
       ["1. Mở đầu", ["Ổn định lớp, kiểm tra sĩ số.", "Câu hỏi mở về các dòng điện dùng trong điều trị.", "Giới thiệu LLO của bài học."], 10],
-      ["2. Kích thích điện thần kinh – cơ", ["Thuyết giảng tích cực (powerpoint, hình ảnh): kích thích điện; các dòng điện kích thích; kỹ thuật điều trị.", "Cách lựa chọn dòng điện trong điều trị kích thích cơ; cách xác định vị trí đặt điện cực kích thích; điện cực điểm và điện cực tấm."], 50],
-      ["3. Chẩn đoán điện", ["Thuyết giảng: hoạt động điện của các dây thần kinh; điện chẩn đoán."], 25],
-      ["4. Các dòng điện giảm đau", ["Thuyết giảng kết hợp phim: dòng siêu kích thích điện; dòng TENS; dòng Diadynamic; dòng giao thoa.", "Trò chơi câu trả lời tiếp sức: ghép dòng điện với tác dụng điều trị."], 45],
-      ["5. Tổng kết và Lượng giá tại lớp", ["Tóm tắt bằng sơ đồ tư duy; câu hỏi nhanh.", "Dặn dò xem lại quy trình trước buổi thực hành."], 20],
+      ["2. Kích thích điện thần kinh – cơ", ["Thuyết giảng tích cực (powerpoint, hình ảnh): kích thích điện; các dòng điện kích thích; kỹ thuật điều trị.", "Cách lựa chọn dòng điện trong điều trị kích thích cơ; cách xác định vị trí đặt điện cực kích thích; điện cực điểm và điện cực tấm."], 60],
+      ["3. Các dòng điện giảm đau", ["Thuyết giảng kết hợp phim: dòng siêu kích thích điện; dòng TENS; dòng Diadynamic; dòng giao thoa.", "Trò chơi câu trả lời tiếp sức: ghép dòng điện với tác dụng điều trị."], 60],
+      ["4. Tổng kết và Lượng giá tại lớp", ["Tóm tắt bằng sơ đồ tư duy; câu hỏi nhanh.", "Dặn dò xem lại quy trình trước buổi thực hành."], 20],
     ],
     post,
   },
@@ -559,4 +556,4 @@ const C = [
   },
 ];
 
-module.exports = A.concat(v2.slice(4, 7), C);
+module.exports = A.concat(require("./partB_safe.js"), C);
